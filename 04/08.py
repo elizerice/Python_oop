@@ -24,15 +24,3 @@ class CubeSummator(Summator):
     def transform(self):
         self.num = 3
 
-
-a = Summator(10)
-a.transform()
-print(a.sum())
-
-b = SquareSummator(10)
-b.transform()
-print(b.sum())
-
-c = CubeSummator(10)
-c.transform()
-print(c.sum())
